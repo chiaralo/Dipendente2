@@ -18,7 +18,7 @@ public class Dipendente {
     public Dipendente(){
         
     }
-    /*public Dipendente(String matri, Double sti, Double ex){
+    public Dipendente(String matri, Double sti, Double ex){
         matricola=matri;
         stipendiobase=sti;
         extra=ex;
@@ -26,7 +26,7 @@ public class Dipendente {
     
     public Double getStipendio(){
         return stipendiobase;
-    }*/
+    }
     
     public Double paga(int ore){
         return stipendiobase + (extra * ore);
