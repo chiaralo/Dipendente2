@@ -8,9 +8,6 @@ import javax.swing.JOptionPane;
  */
 public class DipendenteA extends Dipendente {
 
-    /**
-     * @param args the command line arguments
-     */
     Integer malattia;
     
     public DipendenteA(String matri, Double sti, Double ex){
